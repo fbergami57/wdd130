@@ -48,6 +48,5 @@ section {
     margin: 20px auto;
     padding: 15px 20px;
     text-align: left;
-    /* ✅ FIX */
     border-radius: 3px;
 }
