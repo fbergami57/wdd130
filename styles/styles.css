@@ -10,19 +10,24 @@ body {
 }
 
 nav {
-    background-color: steelblue;
+    background-color: darkblue;
     padding: 10px;
 }
 
 nav a {
     color: white;
-    padding: 10px;
     display: block;
+    padding: 20px;
+    /*text-decoration: none;*/
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 h1 {
-    color: steelblue;
-    padding: .5rem
+    color: darkblue;
+    /*padding: .5rem*/
 }
 
 main {
@@ -55,8 +60,17 @@ aside img {
     height: auto;
 }
 
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
 p {
-    margin: 1rem;
+    padding: 10px;
+    /*margin: 1rem;*/
 }
 
 footer {
