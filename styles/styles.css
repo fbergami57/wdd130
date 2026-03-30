@@ -54,7 +54,7 @@ main img {
 }
 
 aside {
-    width: 320px;
+    width: 20em;
     margin: var(--spacing) auto;
     border: 1px solid var(--border-color);
     padding: var(--spacing);
@@ -65,8 +65,8 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 65px;
-    left: 200px;
+    top: 47px;
+    left: 150px;
 }
 
 aside img {
@@ -93,11 +93,15 @@ footer {
     text-align: center;
 }
 
-.box {
-    margin-top: var(--spacing);
-    border-top: 1px solid #000;
-}
-
 .indent {
     padding-left: 2rem;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
