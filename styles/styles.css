@@ -26,7 +26,7 @@ h1 {
 }
 
 main {
-    max-width: 640;
+    max-width: 640px;
 }
 
 main img {
@@ -48,6 +48,11 @@ aside h2 {
     position: absolute;
     top: 65px;
     left: 200px;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 p {
