@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: arial, sans-serif;
     line-height: 1.6;
@@ -21,6 +27,28 @@ h1 {
     text-align: center;
 }
 
-img {}
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333;
+}
 
-footer {}
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 20px;
+    background-color: lightgreen;
+    font-size: .9rem;
+}
+
+section p {
+    margin: 10px;
+}
+
+ul {
+    margin: 10px 20px 0 20px;
+}
+
+footer {
+    font-size: .9rem;
+}
