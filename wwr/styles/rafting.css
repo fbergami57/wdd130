@@ -145,7 +145,7 @@ h1 {
     padding: 8px;
     text-align: center;
     background-color: transparent;
-    color: var(--primary-color);
+    color: var(--section-bg);
 }
 
 .hero article {
