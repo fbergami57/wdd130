@@ -129,6 +129,7 @@ article {
     padding: 8px;
     background-color: var(--section-bg);
     border: 1px solid var(--block-border);
+    border-top: 3px solid var(--highlight-color);
 }
 
 .hero img {
@@ -144,8 +145,8 @@ h1 {
     width: 100%;
     padding: 8px;
     text-align: center;
-    background-color: transparent;
-    color: var(--section-bg);
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 .hero article {
